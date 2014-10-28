@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OfertaMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- Produto -->
+    <string name="btnPesquisar">Pesquisar</string>
+	<string name="hintTxtPesquisarOferta">O que você procura?</string>
+	<string name="lblTitulo">Título</string>
+	<string name="lblDataOferta">Data oferta</string>
+	<string name="lblFornecedor">Fornecedor</string>
+	<string name="lblAnunciante">Anunciante</string>
+	<string name="lblClassificacaoAnunciante">Classificação anunciante</string>
+	<string name="lblQuestaoOferta">Esta oferta é interessante?</string>
+	<string name="lblEndereco">Endereço</string>
+	<string name="msgFalhaDetalheOferta">Desculpe houve uma falha ao tentar carregar os dados!</string>
+    
+    
+    <!-- FaceBook -->
+    <string name="menu_settings">Settings</string>
+    <string name="login_text">Facebook Login</string>
+    <string name="facebook_picture">Facebook picture</string>
+	<string name="unauthorize_text">Remove Facebook access</string>
+	<string name="logout_text_button">Log out Facebook</string>
+	<string name="unauthorize_message">App unauthorized in facebook</string>
+	<string name="unauthorize_text_error">Error removing facebook access</string>
+	<string name="logout_text_error">Error log out facebook</string>
+	<string name="logout_text">Logged out from Facebook</string>
+	<string name="progress_dialog_title">Facebook</string>
+	<string name="progress_dialog_in">Authenticating and retrieving information</string>
+	<string name="progress_dialog_out">Revoking access</string>
+	<string name="progress_dialog_logout">Log out </string>
+	<string name="login_logged">Logged as %s</string>
+	<string name="login_cancel">Log in canceled</string>
+	<string name="login_error">Log in error</string>
+	
+	<!-- Twitter -->
+	<string name="title_activity_twitter_android_login_main">OfertaMe</string>
+    <string name="twitter_icon_descr">Twitter icon</string>
+    <string name="twitter_login_text">Log in Twitter</string>
+    <string name="loged_text">Logged in Twitter as</string>
+    <string name="not_loged_text">Logged failed</string>
+    <string name="cancel_loged_text">Logged canceled</string>
+    <string name="login_picture_profile_desc">Picture profile</string>
+    <string name="login_result_username_text">Name:</string>
+
+	
+    <style name="ButtonText">
+	   <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	
+    <style name="DefaultButtonText">
+	   <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#979797</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	
+</resources>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"  >
+
+     
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/login_text"
+        android:clickable="true"
+        android:onClick="loginInFaceBook"
+        android:textColor="#5882FA"
+        android:textStyle="bold"
+        android:id="@+id/text_login"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_login"
+        android:text=""
+        android:id="@+id/login_result"
+        />
+        
+    <ImageView android:id="@+id/facebook_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login_result"
+        android:contentDescription="@string/facebook_picture"
+        android:visibility="gone"/>
+   
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/unauthorize_text"
+        android:clickable="true"
+        android:onClick="clickUnAuthorize"
+        android:textColor="#5882FA"
+        android:textStyle="bold"
+        android:id="@+id/button_unauthorize"
+        android:visibility="gone"
+        /> 
+    
+    
+   <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/button_unauthorize"
+        android:text="@string/logout_text_button"
+        android:clickable="true"
+        android:onClick="clickLogout"
+        android:textColor="#5882FA"
+        android:textStyle="bold"
+        android:id="@+id/button_logout"
+        android:visibility="gone"
+        />  
+     
+
+</RelativeLayout>

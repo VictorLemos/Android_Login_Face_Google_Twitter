@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OfertaMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- android:text="Entrar" -->
+    <string name="txtSingIn">Entrar</string>
+    
+    <!-- android:text="Criar Conta" -->
+    <string name="txtSingUp">Criar conta</string>
+    
+    <!-- FaceBook -->
+    <string name="menu_settings">Settings</string>
+    <string name="login_text">Entrar no Facebook</string>
+    <string name="facebook_picture">Facebook picture</string>
+	<string name="unauthorize_text">Remover Facebook acesso</string>
+	<string name="logout_text_button">Sair do Facebook</string>
+	<string name="unauthorize_message">App não autorizada no facebook</string>
+	<string name="unauthorize_text_error">Erro ao remover o acesso do facebook</string>
+	<string name="logout_text_error">Erro ao sair do facebook</string>
+	<string name="logout_text">Desconectou do Facebook</string>
+	<string name="progress_dialog_title">Facebook</string>
+	<string name="progress_dialog_in">Autenticação e recuperação de informações</string>
+	<string name="progress_dialog_out">Revogar acesso</string>
+	<string name="progress_dialog_logout">Sair</string>
+	<string name="login_logged">Usuário %s</string>
+	<string name="login_cancel">Cancelar</string>
+	<string name="login_error">Erro ao entrar</string>
+	
+	<!-- Twitter -->
+	<string name="title_activity_twitter_android_login_main">OfertaMe</string>
+    <string name="twitter_icon_descr">Twitter icon</string>
+    <string name="twitter_login_text">Entrar no Twitter</string>
+    <string name="loged_text">Usuário no Twitter:</string>
+    <string name="not_loged_text">Usuário falhou</string>
+    <string name="cancel_loged_text">Usuário cancelado</string>
+    <string name="login_picture_profile_desc">Foto do Perfil</string>
+    <string name="login_result_username_text">Nome:</string>
+
+	
+    <style name="ButtonText">
+	   <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	
+    <style name="DefaultButtonText">
+	   <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#979797</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	
+</resources>

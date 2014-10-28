@@ -1,0 +1,103 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.login.ofertame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+
+  <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+      <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+      
+        <activity
+            android:name="br.com.login.ofertame.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Cria Conta -->
+        <activity
+            android:name="br.com.login.ofertame.SignUpActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.SignUpActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Entrar -->
+        <activity
+            android:name="br.com.login.ofertame.SignInActivity"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.SignInActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <!-- Google -->
+         <activity
+            android:name="br.com.login.google.GoogleLoginMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GoogleLoginMainActivity" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <!-- Face -->
+        <activity
+            android:name="br.com.login.facebook.FacebookLoginMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FacebookLoginMainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Twitter -->
+        <activity
+            android:name="br.com.login.twitter.TwitterAndroidLoginMainActivity"
+            android:label="@string/title_activity_twitter_android_login_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.TwitterAndroidLoginMainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Used for OAuth callback -->
+	      <intent-filter>
+	        <action
+	          android:name="android.intent.category.VIEW" />
+	        <category
+	          android:name="android.intent.category.DEFAULT" />
+	        <category
+	          android:name="android.intent.category.BROWSABLE" />
+	        <data
+	          android:scheme="x-goodout-oauth-twitter"
+	          android:host="callback" />
+	      </intent-filter>
+        </activity>
+        <activity android:name="br.com.login.twitter.TwitterWebView" > 
+        </activity>
+  
+    </application>
+</manifest>
